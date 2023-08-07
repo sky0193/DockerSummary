@@ -3,13 +3,13 @@
 - tag can be chosen arbitrarily 
 
 ```
-sudo docker build --tag 'basic' .
+sudo docker build --tag ubuntu20-grpc .
 ```
 
 ## Run interactive
 
 ```
-sudo docker run -i -t basic
+sudo docker run -i -t ubuntu22-grpc
 ```
 
 ## Basic Check

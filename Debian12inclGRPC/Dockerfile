@@ -1,10 +1,10 @@
-# Download base image ubuntu 20.04
-FROM ubuntu:20.04
+# Download base image debian 12
+FROM debian:bookworm
 
 # LABEL about the custom image
 LABEL maintainer="lena.bykov93@gmail.com"
 LABEL version="0.1"
-LABEL description="This is a custom Docker Image for Ubuntu20 with compiled grpc from source"
+LABEL description="This is a custom Docker Image for Debian 12 with compiled grpc from source"
 
 # Disable Prompt During Packages Installation
 ARG DEBIAN_FRONTEND=noninteractive
